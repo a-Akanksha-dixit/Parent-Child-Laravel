@@ -60,8 +60,14 @@
     </style>
 </head>
 <body>
-
+    <div class="container">
+        <form action="{{ route('category.page') }}">
+            <button type="submit">Category Page</button>
+        </form>
+    </div>
+    
 <div class="container">
+    
     <h2>Submit Parent and Child Information</h2>
     <form id="parentChildForm">
         <p id="error-message" style="color: red"></p>
